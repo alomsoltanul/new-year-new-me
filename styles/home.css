@@ -1,0 +1,54 @@
+/*  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px 0;
+}
+.nav-header .nav-logo{}
+.nav-header .nav-logo h1{
+    font-size: 26px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: white;
+}
+.nav-header .nav-logo span{
+    color: red;
+    font-size:35px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.nav-header .nav-menu{}
+.nav-header .nav-menu ul{
+    display: flex;
+    
+}
+.nav-header .nav-menu ul li{
+    color: white;
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-header .nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+
+}
+.nav-header .nav-menu ul li a:hover{
+    color: palegreen;
+}
